@@ -32,23 +32,18 @@ O projeto segue uma arquitetura modular com:
 
 ```bash
 git clone <url-do-repositorio>
-cd server
+cd NLW-Agents-Back
 ```
 
 ### 2. Configure o banco de dados
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 ### 3. Configure as variáveis de ambiente
 
-Crie um arquivo `.env` na raiz do projeto:
-
-```env
-PORT=3333
-DATABASE_URL=postgresql://docker:docker@localhost:5432/agents
-```
+Crie um arquivo `.env` na raiz do projeto seguindo o .example
 
 ### 4. Instale as dependências
 
