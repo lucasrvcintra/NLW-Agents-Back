@@ -15,6 +15,13 @@
       "when": 1752108428582,
       "tag": "0001_tan_frog_thor",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752288081919,
+      "tag": "0002_flowery_maximus",
+      "breakpoints": true
     }
   ]
 }
